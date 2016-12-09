@@ -1,0 +1,39 @@
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.exe.config
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.exe
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.pdb
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Discord.Net.Commands.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Discord.Net.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Newtonsoft.Json.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Concurrent.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\RestSharp.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\WebSocket4Net.dll
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Newtonsoft.Json.xml
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.xml
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Concurrent.xml
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\bin\Debug\RestSharp.xml
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.csprojResolveAssemblyReference.cache
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.exe
+c:\users\keenan\documents\visual studio 2015\Projects\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.pdb
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.exe.config
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.exe
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.pdb
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\images\everythingIsFine.png
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.exe
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\ShrimpBot.pdb
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Discord.Net.Commands.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Discord.Net.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Concurrent.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\RestSharp.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\WebSocket4Net.dll
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.xml
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Concurrent.xml
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\bin\Debug\RestSharp.xml
+C:\Users\Keenan\Documents\GitKraken\ShrimpBot\ShrimpBot\obj\Debug\ShrimpBot.csprojResolveAssemblyReference.cache
