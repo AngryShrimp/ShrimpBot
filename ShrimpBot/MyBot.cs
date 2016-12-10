@@ -40,6 +40,7 @@ namespace ShrimpBot
 
             RegisterBlameShrimpCommand();
             RegisterEverythingIsFineCommand();
+            RegisterBlockifyCommand();
 
             //Execute
             discord.ExecuteAndWait(async () =>
@@ -73,6 +74,32 @@ namespace ShrimpBot
                 .Do(async (e) =>
                 {
                     await e.Channel.SendFile("images/everythingIsFine.png");
+                });
+        }
+
+        private void RegisterBlockifyCommand()
+        {
+            command.CreateCommand("blockify")
+                .Parameter("message", ParameterType.Multiple)
+                .Do(async (e) =>
+                {
+                    var message = e.Args;
+                    StringBuilder blockifiedMessage = new StringBuilder();
+
+
+                    foreach(string x in message)
+                    {
+                        foreach(char c in x)
+                        {
+                            if (Char.IsLetter(c))
+                                blockifiedMessage.Append(":regional_indicator_" + Char.ToLower(c) + ": ");
+                            else
+                                blockifiedMessage.Append(c);
+                        }
+                        blockifiedMessage.Append("    ");
+                    }
+
+                    await e.Channel.SendMessage(blockifiedMessage.ToString());
                 });
         }
 
