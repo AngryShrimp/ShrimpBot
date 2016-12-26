@@ -41,11 +41,12 @@ namespace ShrimpBot
             RegisterBlameShrimpCommand();
             RegisterEverythingIsFineCommand();
             RegisterBlockifyCommand();
+            RegisterChristmasTreeCommand();
 
             //Execute
             discord.ExecuteAndWait(async () =>
             {
-                await discord.Connect("MjU2NjU2MTIzMjUwMDgxNzky.CyvZfw.4mEAARWZTZVy9EfrLIBqHg5bFM0", TokenType.Bot);
+                await discord.Connect("MjU2NjU2MTIzMjUwMDgxNzky.C0C0bA.eJp5Y-9TZrpPn5zIGfAnTHEJgYM", TokenType.Bot);
             });
         }
 
@@ -100,6 +101,45 @@ namespace ShrimpBot
                     }
 
                     await e.Channel.SendMessage(blockifiedMessage.ToString());
+                });
+        }
+
+        private void RegisterChristmasTreeCommand()
+        {
+            command.CreateCommand("merryChristmas")
+                .Do(async (e) =>
+                {
+                    String currentDateMonth = System.DateTime.Today.ToString().Split(' ')[0].Split('-')[1] + "-" + System.DateTime.Today.ToString().Split(' ')[0].Split('-')[2];
+                    if (currentDateMonth == "12-25")
+                    {
+                        await e.Channel.SendMessage("```" +
+                                                    "           *             ,\n" +
+                                                    "                       _/^\\_\n" +
+                                                    "                      <     >\n" +
+                                                    "     *                 /.-.\\         *\n" +
+                                                    "              *        `/&\\`                   *\n" +
+                                                    "                      ,@.*;@,\n" +
+                                                    "                     /_o.I %_\\    *\n" +
+                                                    "        *           (`'--:o(_@;\n" +
+                                                    "                   /`;--.,__ `')             *\n" +
+                                                    "                  ;@`o % O,*`'`&\\ \n" +
+                                                    "            *    (`'--)_@ ;o %'()\\      *\n" +
+                                                    "                 /`;--._`''--._O'@;\n" +
+                                                    "                /&*,()~o`;-.,_ `\"\"`)\n" +
+                                                    "     *          /`,@ ;+& () o*`;-';\\ \n" +
+                                                    "               (`\"\"--.,_0 +% @' &()\\ \n" +
+                                                    "               /-.,_    ``''--....-'`)  *\n" +
+                                                    "          *    /@%;o`:;'--,.__   __.'\\ \n" +
+                                                    "              ;*,&(); @ % &^;~`~`o;@(); *\n" +
+                                                    "              /(); o^~; & ().o@*&`;&%O\\ \n" +
+                                                    "             `' = '==''==,,,.,=' == '==='`\n" +
+                                                    "           __.----.----''#####---...___...-----._\n" +
+                                                    "         '`             `'''''`" +
+                                                    "\n" +
+                                                    "```");
+                    }
+                    else
+                        await e.Channel.SendMessage("It aint Christmas, sorry D:");
                 });
         }
 
