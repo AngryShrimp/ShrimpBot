@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Discord;
+using Discord.Audio;
 using Discord.Commands;
 
 namespace ShrimpBot
@@ -81,12 +82,24 @@ namespace ShrimpBot
         private void RegisterBlockifyCommand()
         {
             command.CreateCommand("blockify")
+                .Alias(new string[] { "block" })
+                .Description("Turns alphabet characters into \"blocks\"")
                 .Parameter("message", ParameterType.Multiple)
                 .Do(async (e) =>
                 {
                     var message = e.Args;
                     StringBuilder blockifiedMessage = new StringBuilder();
 
+                    try
+                    {
+                        Discord.Message[] messageArr = new Discord.Message[] { e.Message };
+                        e.Channel.DeleteMessages(messageArr);
+                    }
+                    catch(Exception exc)
+                    {
+                        throw new Exception(exc.Message);
+                    }
+                    await e.Channel.SendMessage(e.User.Name + " says: \n\n");
 
                     foreach(string x in message)
                     {
